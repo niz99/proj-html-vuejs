@@ -1,16 +1,19 @@
 <template>
     <div>
         <FirstHeaderComp/>
+        <SecondHeaderComp/>
     </div>
 </template>
 
 <script>
 import FirstHeaderComp from './FirstHeaderComp.vue'
+import SecondHeaderComp from './SecondHeaderComp.vue'
 
 export default {
   name: 'HeaderComp',
   components: {
-      FirstHeaderComp
+    FirstHeaderComp,
+    SecondHeaderComp
   }
 }
 </script>
